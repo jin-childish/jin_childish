@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>top-left</title>
+</head>
+
+<body>
+	
+	<header>
+				<h1>TOP-LEFT</h1>
+	</header>
+	
+	<div>
+		<form action="top_right.html" method="get">
+			<label>choose your direction.</label>
+				<input list="directions">
+					<datalist id="directions">
+						<option value="top-left"></option>
+						<option value="top-right"></option>
+						<option value="center"></option>
+						<option value="bottom-left"></option>
+						<option value="bottom-right"></option>
+					</datalist>
+				<input type="submit" value="go">
+		</form>
+	</div>
+	<div>
+		<h2>JavaScript</h2>
+		<input type="button" value="Hello" onClick="alert('Hello')"><!--이렇게 웹 브라우저 위에서 일어나는 사건 ex. 클릭 시 를 event라 할 수 있다. 예를들어 클릭(onclick), 키를 눌렀을때(keydown), 내용이 변했을때(onchange).-->
+		<input type="text" onChange="alert('changed')">
+		<input type="text" onKeyPress="alert('welcome')">
+		<script>
+				document.write(1+1);
+		</script>
+	</div>
+	
+	
+	
+</body>
+</html>

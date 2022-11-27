@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* CSS Document */
+
+header{
+	position: relative;
+	border-bottom: 1px #D16893 solid;
+}
+.Home{
+	display: inline-block;
+	width: 142px;
+}
+
+.DAY_OR_NIGHT{
+	position: absolute;
+	bottom: 8.5px;
+	right: 5px;
+}
+.jin_childish{
+	text-decoration: none;
+	position:fixed;
+	right: 5px;
+	bottom: 4px;
+	color: black;
+	font-size: 1em;
+	border-bottom: none;
+}
+.Library{
+	display: inline-block;
+	height: 37px;
+	
+}
+span.Book_description2{
+	display: none;
+}
+span.Book_description3{
+	display: none;
+}
+div.Book_description{
+	display: none;
+	position: fixed;
+	width: 600px;
+	height:300px;
+	bottom: 50%;
+	top: 50%;
+	left: 50%;
+	right: 50%;
+	background-color: aliceblue;
+	transform: translate(-50%,-50%);
+}
+#GRID{
+	display:grid;
+	grid-template-columns: 88px 296px 296px 250px 310px;
+	border-bottom: 1px #D16893 solid;
+	position:static;
+}
+.SEND_FLOWERS_TO_DB1{
+	margin: 0px;
+	border: 0px;
+	height: 87px;
+}
+.SEND_FLOWERS_TO_DB2{
+	margin: 0px;
+	border: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	height: 59px;
+	width: 184px;
+}
+.DB{
+	background-color: #D16893;
+}
+img.menu {
+	resize:vertical;
+	
+	
+}
+h1{
+	font-size: 2em;
+	text-align: left;
+	margin: 0;
+	
+}
+.nav1{
+	border-right: 1px #D16893 solid;
+	border-left: 1px #D16893 solid;
+}
+
+
+@media(min-width:700px)
+{
+	.NAV{
+		display:none;
+	}
+}
+ol{
+	list-style: none;
+	width: 68px;
+	margin: 0;
+	padding: 10px;
+	}	
+
+li {
+	align-content: center;
+	
+	
+}
+.VIDEO1{
+	padding: 10px;
+	padding-right: 0px;
+	width: 286px;
+	height: 290px;
+}
+.VIDEO2{
+	padding: 10px;
+	padding-right: 0px;
+	width: 286px;
+	height: 290px;
+}
+.CROSS{
+	padding: 10px;
+	padding-right: 0px;
+	height: 290px;
+	width: 240px;
+}
+.CROSS_TO_SPACE{
+	padding: 10px;
+	width: 290px;
+	height: 290px;
+	display: grid;
+	grid-template-rows: 145px 145px;
+}
+.TOP{
+	display: grid;
+	grid-template-columns: 145px 145px;
+	
+}
+.BOTTOM{
+	display: grid;
+	grid-template-columns: 145px 145px;
+}
+footer {
+	
+}
+a {
+	color:#D16893;
+	text-decoration: none;
+	
+}
+ul {
+	list-style: none;
+	padding:10px;
+	
+}
+@media(max-width : 700px )
+{
+	#GRID{
+		display: block;
+	}
+	.nav{
+		display: none;
+	}
+	.NAV{
+		display: grid;
+		grid-template-columns: 43px 49px 194px;
+		border-bottom: 1px #D16893 solid;
+		margin-left: 10px;
+	}
+	.NAV1-1{
+		width: 43px;
+		margin-top: 10px;
+	}
+	.NAV1-2{
+		width: 39px;
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+	.NAV1-3{
+		width: 184px;
+		margin-top: 10px;
+		margin-left: 10px;
+		padding-bottom: 10px;
+	}
+	.VIDEO2{
+		margin-left: 0px;
+	}
+}

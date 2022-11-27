@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<body>
+
+<h2>JavaScript HTML Events</h2>
+<p>Click the button to display the date.</p>
+
+<button onclick="displayDate()">The time is?</button>
+<input type="button" id="Day_or_Night" value="NIGHT" onClick="
+	if(this.value === 'NIGHT') {document.querySelector('body').style.backgroundColor = 'black';
+	document.querySelector('body').style.color = 'white';
+	document.querySelector('#Day_or_Night').value = 'DAY';}
+															  
+	else {document.querySelector('body').style.backgroundColor = 'white';
+	document.querySelector('body').style.color = 'black';
+	this.value = 'NIGHT';}">
+<button onClick="meme();">Click me!</button>
+	<!--<script> 
+		var i = 0;
+		while(i < document.querySelectorAll('div').length)
+		{document.querySelectorAll('div')[i].style.borderColor = "white";
+		i = i + 1;} 
+	</script>
+	--> <!-- 위 스크립트에서 왜 querySelectorAll 자체는 문제없지만 반복문 사용시에 기능을 못하는지 모르겠다.... -->
+<p id="demo"></p>
+<script>
+function displayDate() {document.getElementById("demo").innerHTML = Date();}
+document.write('man'==='man')
+document.write('<br>')
+document.write('<p>'+'재밌니?'+'</p>')
+document.write('woman'==='man')
+</script>
+<div style="display: block ; border: solid black 1px;">
+<h2>Array</h2>
+		<script>
+		var books = ["Best Movies of The 80s","Best Movies of The 70s"]
+		</script>	
+<h3>what i did read</h3>
+	<script>
+	document.write(books[0]);
+	document.write(books[1]);
+	</script>
+<h3>what i got before</h3>
+	<script>
+	document.write(books.length);
+	</script>
+<h3>what i have here as a new one</h3>
+	<script>
+	document.write('영화 연출')
+	books.push('영화 연출');
+	</script>
+<h3>what i got now</h3>
+	<script>
+	document.write(books.length);
+	</script>
+<h3>how many times i read?(pattern)</h3>
+	<script>
+	var i = 0
+	while(i < 3){
+		  document.write('Best Movies of The 80s');
+		  document.write('Best Movies of The 70s');
+		  i = i + 1;
+		   }
+	document.write(books[2])	  
+	</script>
+<h3>Books Array</h3>
+<script>
+	var i = 0
+	while(i < books.length){		
+		document.write('<li>'+'<a href="'+books[i]+'.html">'+books[i]+'</a>'+'</li>');
+		i = i + 1;
+	}	
+</script>
+</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tGsKzZtRwxw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html> 
